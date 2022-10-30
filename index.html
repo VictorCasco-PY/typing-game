@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="mensajes">
+            <h1>Typing Game!</h1>
+            <p>Practique sus habilidades de tipeo con este texto de ejemplo de Sherlock Holmes. Haga
+                click en **inicio**
+                para
+                empezar!</p>
+        </div>
+        <div class="resultado">
+            <!--Aqui se muestra el mensaje a ser copiado-->
+            <p id="quote"></p>
+            <!--Aqui se muestra el mensaje finalizacion del juego-->
+            <p id="message"></p>
+        </div>
+        <div class="inputs">
+            <button type="button" id="inicio">Iniciar</button>
+            <input type="text" aria-label="palabra actual" id="texto-tipeado" />
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

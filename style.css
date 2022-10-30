@@ -1,0 +1,53 @@
+body {
+    background-color: #FFFFFF;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+    padding: 10px 10px 10 px 90px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.highlight {
+    background-color: #222222;
+}
+
+.error {
+    background-color: lightcoral;
+    border-color: red;
+}
+
+.container {
+    background-color: #1C5D99;
+    color: whitesmoke;
+    text-align: center;
+    width: 850px;
+    height: 400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.mensajes {
+    font-size: 30px;
+}
+
+.resultado {
+    font-size: 25px;
+}
